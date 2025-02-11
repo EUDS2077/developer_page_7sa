@@ -1,0 +1,17 @@
+html
+    {
+        font-size: 62.5%;
+    }
+body
+    {
+        font-size: 16px;
+    }
+.tituto
+    {
+        text-align: center;
+        font-size: 3.8rem;
+    }
+.tituto span
+    {
+        font-size: 2rem;
+    }
