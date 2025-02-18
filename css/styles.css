@@ -8,21 +8,24 @@
     }
 html
     {
-        font-size: 62.5%; /*Conversion para rem*/
+        /*Conversion para rem*/
+        font-size: 62.5%;
         font-family: Krub, Helvetica, sans-serif;
     }
 body
     {
-        font-size: 16px; /*16 pixeles es el estandar en los navegadores*/
+        /*16 pixeles es el estandar en los navegadores*/
+        font-size: 16px;
     }
 .titulo
     {
-        text-align: center; /**/
-        font-size: 3.8rem; /**/
+        text-align: center;
+        font-size: 3.8rem;
     }
 .titulo span
     {
-        font-size: 2rem; /*2 rem = 32 pixeles*/
+        /*2 rem = 32 pixeles*/
+        font-size: 2rem;
     }
 .navegacion-principal
     {
@@ -74,3 +77,10 @@ body
         background-color: var(--primario);
         color: var(--oscuro)
     }
+.hero
+{
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    /*Cubre la imagen con todo el tamaño*/
+    background-size: cover;
+}
