@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ED Dev</title>
+    <title>EUDS® Dev</title>
     <!--Siempre va primero normalize-->
     <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
@@ -62,35 +62,37 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi ipsum animi maiores fugit? Consectetur maiores incidunt accusantium nemo, atque corrupti ea, iure culpa totam sapiente modi, exercitationem facere non tenetur!</p>
         </section>
         </div> <!-- Cierre de div de servicios -->
-    </main>
     <section>
         <h2>Contacto</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>Llena tus datos para establecer contacto</legend>
-                <div>
+                <div class="contenedor-campos">
+                <div class="campo">
                     <label>Nombre</label>
                     <input type="text" placeholder="Tu nombre">
                 </div>
-                <div>
+                <div class="campo">
                     <label>Telefono</label>
                     <input type="tel" placeholder="Tu telefono">
                 </div>
-                <div>
+                <div class="campo">
                     <label>Correo</label>
                     <input type="email" placeholder="Tu correo">
                 </div>
-                <div>
+                <div class="campo">
                     <label>Mensaje</label>
                     <textarea></textarea>
                 </div>
-                <div>
-                    <input type="submit" value="Enviar">
+                </div> <!-- Cierre de contenedor campos -->
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
                 </div>
             </fieldset>
         </form>
     </section>
-    <footer>
+    </main>
+    <footer class="footer">
         <p>Todos los derechos reservados EUDS®</p>
     </footer>
 </body>
